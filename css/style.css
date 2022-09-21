@@ -130,6 +130,29 @@ body{
   margin-right:120px;
   margin-bottom:0.5px;
 }
+
+.btn-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-row a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.left-btn{
+  padding: 2px;
+  color: #292929;
+  background: #fff;
+  border-radius: 50px;
+}
+.left-btn i{
+  Color: #292929;
+}
+
+
 @media screen and (min-width: 990px) {
   .btn {
     transition: 0.9s;
@@ -138,3 +161,4 @@ body{
     margin-left: 34%;
   }
 }
+

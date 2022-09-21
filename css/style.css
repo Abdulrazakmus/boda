@@ -64,7 +64,8 @@ body{
 .card-main {
   /* Add shadows to create the "card" effect */
   transition: 0.9s;
-  background-color:#f9825b;
+  /* background-image: url('boda-1.jpg'); */
+  /* background-color:#f9825b; */
   border-radius:10px;
   text-decoration:none;
 
@@ -72,7 +73,7 @@ body{
 
 .card-main a{ 
   text-decoration:none;
-  Color:#7a7877;
+  Color:#f9825b;
 }
 
 
@@ -168,7 +169,7 @@ body{
   padding: 2px;
   color: #292929;
   background: #fff;
-  
+
   border-radius: 50px;
 }
 .left-btn i{

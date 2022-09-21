@@ -144,7 +144,8 @@ body{
 
 /* search bar=================================== */
 .btn{
-  margin-top:30px;
+  margin-top:45px;
+  height:60px;
   border-radius:500px;
   color:#fff;
   background-color: #f9825b;
@@ -316,6 +317,28 @@ body{
   
   }
 }
+
+@media screen and (min-width: 375px) {
+  .saved-iterm-1{
+    font-size: 17px;
+  }
+
+  .saved-iterm-3{
+    margin-left:20px;
+    font-size: 17px;
+  }
+  
+  .saved-iterm-3 i{
+    margin-left: 68px;
+
+  }
+
+  .left-icon i{
+    margin-left: 90px;
+  
+  }
+}
+
 
 
 

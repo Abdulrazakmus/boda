@@ -110,6 +110,14 @@ body{
       width: 100px;
     }
   }
+
+  @media screen and (max-width: 760px) {
+    .card {
+      transition: 0.9s;
+      border-radius:10px;
+      width: 100px;
+    }
+  }
   
   @media screen and (min-width: 990px) {
     .card {
@@ -217,6 +225,27 @@ body{
   .saved-place {
     margin-left:38%;
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .saved-iterm-1{
+    font-size: 15px;
+  }
+
+  .saved-iterm-3{
+    margin-left:20px;
+    font-size: 15px;
+  }
+  
+  .saved-iterm-3 i{
+    margin-left: 68px;
+   /* margin-left: 70px; */
+  }
+
+  .left-icon i{
+    margin-left: 80px;
+   /* margin-left: 70px; */
   }
 }
 

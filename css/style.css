@@ -28,6 +28,14 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+a {
+  text-decoration:none;
+  color:#7a7877;
+}
+a:hover {
+  text-decoration:none;
+  color:#f9825b;
+}
 
 /* Body CSS================================ */
 body{
@@ -58,8 +66,15 @@ body{
   transition: 0.9s;
   background-color:#f9825b;
   border-radius:10px;
+  text-decoration:none;
 
 }
+
+.card-main a{ 
+  text-decoration:none;
+  Color:#7a7877;
+}
+
 
 .card-tittle{
   Color:#fff;
@@ -148,9 +163,19 @@ body{
   background: #fff;
   border-radius: 50px;
 }
+
+.left-btn-2{
+  padding: 2px;
+  color: #292929;
+  background: #fff;
+  
+  border-radius: 50px;
+}
 .left-btn i{
   Color: #292929;
 }
+
+
 
 
 @media screen and (min-width: 990px) {
@@ -162,3 +187,39 @@ body{
   }
 }
 
+/* map============================================== */
+#inlineFrameExample{
+
+}
+
+@media screen and (min-width: 990px) {
+  #inlineFrameExample{
+    margin-left:150px;
+
+    transition: 0.9s;
+    border-radius:10px;
+    width: 150vh;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .map {
+    margin-left:40%;
+    width: 450px;
+  }
+}
+
+
+
+/* saved place=============================== */
+@media screen and (min-width: 990px) {
+  .saved-place {
+    margin-left:38%;
+    width: 450px;
+  }
+}
+
+
+.saved-place{
+  display: flex;
+}

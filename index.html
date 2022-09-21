@@ -18,9 +18,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- scripts -->
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -31,16 +32,17 @@
     <!-- Main Card======================================== -->
     <div class="card-main shadow m-3" id="main-card">
         <div class="card-body">
-            <img class="card-img-top" src="img/doda-1.jpg" alt= "card image">
+            <img class="card-img-top" src="img/bod-1.jpg" alt= "card image">
             <div class="card-tittle"> Want a Better Pickups?</div>
-            <a href="https://mail.google.com" class="card-link"> Share Location </a>
+            <a href="#" class="card-link">
+                 Share Your Location <i class="fas fa-map-marker-alt"></i></a>
         </div>
     </div> 
     <!-- Main Card Ends============================================ -->
 
     <div class="container-fluid">
         <div class="container-for-cards">
-            <a href="https://mail.google.com">
+            <a href="#">
                 <div class="card-self">
                     <div class="card text-center shadow">
                         <img src="img/ride.jpg" alt="boda-1" style="width:100%">
@@ -49,7 +51,7 @@
                 </div>
             </a>
 
-            <a href="https://mail.google.com">
+            <a href="#">
                 <div class="card-self ">
                     <div class="card text-center shadow">
                         <img src="img/hourly.jpg" alt="boda-1" style="width:100%">
@@ -58,7 +60,7 @@
                 </div>
             </a>
 
-            <a href="https://mail.google.com">
+            <a href="#">
                 <div class="card-self ">
                     <div class="card text-center shadow">
                         <img src="img/package.jpg" alt="boda-1" style="width:100%">
@@ -67,42 +69,99 @@
                 </div>
             </a>
         </div>
+            <!-- Cards Ends=================================================== -->
+
 
         <!-- Search bar============================================ -->
 
-        <button class="btn btn-block">
+        <div class="btn btn-block shadow">
             <div class="btn-row">
-                <a href="https://mail.google.com">
+                <a href="#">
                     <div class="btn-row-iterm-1">
                         <i class="fas fa-search"></i> Enter pickup point
                     </div>
                 </a>
                 <div class="btn-row-iterm-2">
                     <div class="dropdown">
-                        <span class="left-btn shadow">
-                            <i class="fas fa-clock ml-2" data-toggle="dropdown"></i>
+                        <!-- eka a kwenye data-toggle -->
+                        <button type="button" class="left-btn shadow" dat-toggle="dropdown">
+                            <i class="fas fa-clock ml-2" ></i>
                             <span class="mr-1 ml-1">Now</span>
-                            <i class="dropdown-toggle mr-2" data-toggle="dropdown"></i>
-                        </span>
+                            <i class="dropdown-toggle mr-2"></i>
+                        </button>
                         <div class="dropdown-menu">
+                            <h5 class="dropdown-header">Dropdown header</h5>
+                            <h5 class="dropdown-header">Dropdown header</h5>
+                            <h5 class="dropdown-header">Dropdown header</h5>
+
                             <a class="dropdown-item" href="#">Link 1</a>
                             <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item-text" href="#">Text Link</a>
-                            <span class="dropdown-item-text">Just Text</span>
-                        </div>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                            <h5 class="dropdown-header">Dropdown header</h5>
+                            <a class="dropdown-item" href="#">Another link</a>
+                          </div>
                     </div>
-
                 </div>
             </div>
-        </button>
-
+        </div>
     </div>
-
     <!-- search bar ends============================================ -->
 
+    <!-- Choose a saved place starts ======================================= -->
+<a href="#">
+    
+    <div class="saved-place mt-4">
+        <div class="saved-iterm-1">
+            <i class="	fas fa-map ml-4 mt-4 mr-5"></i> 
+        </div>
 
-    <!-- Cards Ends=================================================== -->
+        <div class="saved-iterm-3">
+            <div class="ml-2"> 
+                Choose a Saved Place <i class="fa fa-angle-double-right ml-5 mt-4"> </i>
+            </div>
+            <hr>
+        </div>
+    </div>
 
+</a>
+
+<a href="#">
+
+
+    <div class="saved-place mt-1">
+        <div class="saved-iterm-1">
+            <i class="fas fa-map-pin ml-4 mt-4 mr-5"></i> 
+        </div>
+
+        <div class="saved-iterm-3">
+            <div class="ml-2"> 
+                Choose a Saved Place <i class="fa fa-angle-double-right ml-5 mt-4"> </i>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+</a>
+    <!-- Choose a ssaved place ends =========================================-->
+
+    <!-- Map Start========================================================== -->
+<container class="map">
+    <i class="fas fa-motorcycle m-4"> Riders around you </i> 
+<div class="container ml-1">
+
+    <iframe id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="330"
+        height="120"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.">
+    </iframe>
+</div>
+    <!-- Map Ends=========================================================== -->
+
+    
+<footer>
+    
+</footer>
 
 </body>
 

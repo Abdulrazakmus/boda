@@ -1,0 +1,43 @@
+@include media-breakpoint-down(xs) {412};
+/* Body CSS================================ */
+body{
+    background-color: #f2f3f5;
+}
+    /* Body CSS Ends======================= */
+
+
+
+    /* Cards CSS============================ */
+.card-body{
+    background-image: url("boda-1.jpg");
+}
+#main-card{
+    text-align:left;
+}
+
+
+
+.container-for-cards{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    margin-top: 10px;
+    
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 1px 10px;
+  }
+
+/* Cards CSS Ends============================= */
+
+/* search bar=================================== */

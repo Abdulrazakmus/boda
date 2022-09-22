@@ -365,7 +365,7 @@ body{
 
 .navigation{
   position: relative;
-  width: 400px;
+  width: 500px;
   height: 80px;
   background: #fff;
   display: flex;
@@ -437,7 +437,6 @@ width: 350px;
 .navigation ul li.active a .icon::before
 {
   opacity: 0.5;
-
 }
 
 .indicator
@@ -450,9 +449,34 @@ width: 350px;
   border-radius:50%;
   z-index: 1;
   transition: 0.5;
-
-
 }
+/* ==============================inazinguaaa===== */
+.indicator::before
+{
+  content: '';
+  position: absolute; 
+  top: 5px;
+  left: -28px;
+  width: 30px;
+  height:30px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 15px 18px #fff;
+}
+/* ================================================== */
+
+.indicator::after
+{
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -28px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: -15px 18px #fff
+} 
 
 
 /* naviation menu ends=========================================== */

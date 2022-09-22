@@ -405,12 +405,14 @@ width: 350px;
   display: block;
   width: 55px;
   height: 55px;
-  /* background: #f00; */
   text-align: center;
   line-height: 65px;
   border-radius: 50%;
   color: #222327;
   font-size: 1.5em;
+  transform: 0.5s;
+  transition-delay: 0s;
+  /* ========================================================= */
 }
 
 .navigation ul li.active a .icon
@@ -418,6 +420,8 @@ width: 350px;
   background: var(--clr);
   color: #fff;
   transform: translateY( -27px);
+  transition-delay: 0.25s;
+
 }
 
 .navigation ul li a .icon::before
@@ -432,11 +436,15 @@ width: 350px;
   border-radius: 50%;
   filter: blur(5px);
   opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+
 }
 
 .navigation ul li.active a .icon::before
 {
   opacity: 0.5;
+  transition-delay: 0.25s;
 }
 
 .indicator
@@ -448,7 +456,7 @@ width: 350px;
   background: #fff;
   border-radius:50%;
   z-index: 1;
-  transition: 0.5s;
+  transition:0.5s;
 }
 /* ========================inazinguaaa mpaka div ya chini ienee kote=============== */
 .indicator::before

@@ -361,6 +361,7 @@ body{
   justify-content: center;
   align-items: center;
   background:#f2f3f5;
+
 }
 
 .navigation{
@@ -375,6 +376,7 @@ body{
   margin-bottom:10px;
   margin-left:50%;
   margin-right:50%;
+  position: fixed;
 
 }
 

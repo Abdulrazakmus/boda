@@ -565,7 +565,8 @@ width: 350px;
 /* ========================================================================================= */
 .description{
 text-align:justify-content;
-padding:20px;
+padding:5px;
+margin-top:5px;
 }
 
 .fomu{
@@ -575,7 +576,7 @@ padding:20px;
 }
 .body-clone{
   display: flex;
-  height: 100vh;
+  height: 99vh;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -604,8 +605,8 @@ padding:20px;
   left: 0;
   bottom: 0;
   height: 3px;
-  width: 30px;
-  margin-bottom:-2px;
+  width: 115px;
+  margin-bottom:-4px;
   background: linear-gradient(135deg, #f9825b, #d5390b)
 }
 
@@ -651,7 +652,6 @@ form .gender-details .gender-title{
 form .gender-details .category{
   display: flex;
   width: 80%;
-  /* background: red; */
   margin: 14px 0;
   justify-content: space-between;
 
@@ -684,5 +684,46 @@ form input[type="radio"]{
 }
 
 form .button{
-  
+  height: 45px;
+  margin 45px 0;
+
+}
+form .button button{
+  height: 100%;
+  width: 100%;
+  outline:none;
+  color: #fff;
+  border:none;
+  font-size:18px;
+  font-weight:500;
+  border-radius:5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #f9825b, #d5390b)
+
+
+}
+
+form .button input:hover{
+  background: linear-gradient(-135deg, #f9825b, #d5390b)
+
+}
+@media (max-width: 584px) {
+  .container-clone{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width:100%;
+  }
+  form .gender-details .category{
+    width: 100%;
+  }
+  .container-clone form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width:0;
+
+  }
 }
